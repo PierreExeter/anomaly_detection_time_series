@@ -2,6 +2,8 @@
 
 This repository is a collection of Jupyter Notebooks on anomaly detection for time series data.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PierreExeter/anomaly_detection_time_series/master)
+
 ## Installation
 
 ```bash
@@ -19,7 +21,7 @@ conda env export --from-history -f environment.yml
 
 not 
 ```bash
-conda env export > environment.yml)
+conda env export > environment.yml
 ```
 
 ## Run the notebooks
@@ -27,5 +29,7 @@ conda env export > environment.yml)
 ```bash
 jupyter notebook 1_multivariate_time_series_anomaly_detection.ipynb
 ```
+or use Binder
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PierreExeter/anomaly_detection_time_series/master)
 
