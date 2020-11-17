@@ -1,27 +1,19 @@
-# Anomaly Detection on Time Series
+# Anomaly Detection for Time Series
 
-## Setup 
+This repository is a collection of Jupyter Notebooks on anomaly detection for time series data.
 
-To reproduce the virtual environment used for the workshop install
-[pipenv](https://pipenv.readthedocs.io/en/latest/) and type:
+## Installation
 
 ```bash
-pipenv install
+conda env create -f environment.yml
+conda activate time_series
+python -m ipykernel install --user --name=time_series   # install environment in Jupyter notebook
 ```
 
-Then you should be able to start a jupyter notebook and execute the notebook content.
+## Run the notebooks
+
+```bash
+jupyter notebook 1_multivariate_time_series_anomaly_detection.ipynb
+```
 
 
-
-## Data
-
-The data used in this workshop was extracted from the [Turbofan engine degradation simulation data set](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#turbofan) (dataset ID: "FD001"). 
-
-Reference: Saxena, A., Goebel, K., Simon, D. and Eklund, N., 2008, October. Damage propagation modeling for aircraft engine run-to-failure simulation. In Prognostics and Health Management, 2008. PHM 2008. International Conference on (pp. 1-9). IEEE.
-
-
-## Questions? Suggestions?
-
-If you have any questions about the presented content or would like to suggest
-ways we could improve this tutorial please reach out to us at
-[support@arundo.com](mailto:support@arundo.com).
