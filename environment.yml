@@ -15,4 +15,3 @@ dependencies:
   - tensorflow=1.14
   - keras
   - numpy==1.16
-prefix: /home/pierre/bin/anaconda3/envs/time_series
