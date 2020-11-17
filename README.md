@@ -10,6 +10,18 @@ conda activate time_series
 python -m ipykernel install --user --name=time_series   # install environment in Jupyter notebook
 ```
 
+## Note
+
+Use this command to export the environment
+```bash
+conda env export --from-history -f environment.yml
+```
+
+not 
+```bash
+conda env export > environment.yml)
+```
+
 ## Run the notebooks
 
 ```bash
